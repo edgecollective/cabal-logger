@@ -1,0 +1,63 @@
+{
+  "name": "cabal",
+  "version": "6.3.2",
+  "description": "p2p chat",
+  "main": "index.js",
+  "bin": {
+    "cabal": "cli.js"
+  },
+  "dependencies": {
+    "cabal-core": "^5.1.2",
+    "cabal-dns": "^1.0.1",
+    "chalk": "^2.4.1",
+    "collect-stream": "^1.2.1",
+    "dat-dns": "^4.0.0",
+    "discovery-swarm": "^5.1.2",
+    "emoji-regex": "^8.0.0",
+    "grapheme-splitter": "^1.0.4",
+    "hypercore-crypto": "^1.0.0",
+    "js-yaml": "^3.13.1",
+    "level": "^5.0.1",
+    "memdb": "^1.3.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "neat-input": "^1.10.0",
+    "neat-log": "^3.1.0",
+    "random-access-memory": "^3.1.1",
+    "strftime": "^0.10.0",
+    "terminal-link": "^1.2.0",
+    "through2": "^2.0.3",
+    "txt-blit": "github:cblgh/txt-blit"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "scripts": {
+    "test": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabal-club/cabal.git"
+  },
+  "keywords": [
+    "hyperdb",
+    "decent",
+    "dat",
+    "chat",
+    "cabal",
+    "decentralize",
+    "p2p"
+  ],
+  "authors": [
+    "cblgh",
+    "noffle",
+    "hunor karamán",
+    "karissa",
+    "ralphtheninja"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/cabal-club/cabal/issues"
+  },
+  "homepage": "https://github.com/cabal-club/cabal#readme"
+}
